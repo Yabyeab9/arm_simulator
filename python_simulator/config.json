@@ -1,0 +1,50 @@
+{
+  "robot": {
+    "name": "MiniArm-4DOF"
+  },
+  "network": {
+    "host": "127.0.0.1",
+    "port": 5005
+  },
+  "links": {
+    "base": 0.8,
+    "upper_arm": 2.2,
+    "forearm": 1.6,
+    "wrist": 0.7,
+    "end_effector": 0.4
+  },
+  "joints": {
+    "J1": {
+      "name": "Base Rotation",
+      "axis": "y",
+      "min": -180.0,
+      "max": 180.0,
+      "home": 0.0,
+      "step": 5.0
+    },
+    "J2": {
+      "name": "Shoulder Pitch",
+      "axis": "x",
+      "min": -90.0,
+      "max": 90.0,
+      "home": 15.0,
+      "step": 5.0
+    },
+    "J3": {
+      "name": "Elbow Pitch",
+      "axis": "x",
+      "min": -120.0,
+      "max": 120.0,
+      "home": -30.0,
+      "step": 5.0
+    },
+    "J4": {
+      "name": "Wrist Pitch",
+      "axis": "x",
+      "min": -180.0,
+      "max": 180.0,
+      "home": 0.0,
+      "step": 5.0
+    }
+  }
+}

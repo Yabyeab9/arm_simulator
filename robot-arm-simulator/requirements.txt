@@ -1,0 +1,5 @@
+# 3D Robotic Arm Simulator - Python Dependencies
+# Only genuine runtime dependencies are included.
+# Networking, threading, math, and JSON use the Python 3 standard library.
+
+ursina>=5.0.0
